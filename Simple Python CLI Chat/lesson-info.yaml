@@ -1,0 +1,6 @@
+type: framework
+content:
+  - Setting Up the Chat Assistant
+  - Interactive Chat and Token Cost Calculation
+  - Continuous Interaction and Function Calling
+current_task: 1

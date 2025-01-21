@@ -1,0 +1,11 @@
+type: hyperskill
+title: Simple Python CLI Chat
+language: English
+summary: <p>Get started with OpenAI's Chat Completion API by implementing it in a
+  Python CLI program. Create a CLI assistant with whom you can chat.</p><br/><br/>Learn
+  more at <a href="https://hyperskill.org/projects/478?utm_source=ide&utm_medium=ide&utm_campaign=ide&utm_content=project-card">https://hyperskill.org/projects/478</a>
+programming_language: Python
+content:
+  - Simple Python CLI Chat
+mode: Study
+yaml_version: 1

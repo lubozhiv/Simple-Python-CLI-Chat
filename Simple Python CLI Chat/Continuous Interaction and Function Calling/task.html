@@ -1,0 +1,48 @@
+<div class="step-text">
+<p></p>
+<h5 id="description">Description</h5>
+<p>In this concluding stage, you will transform your assistant into a persistent chatbot that can engage in ongoing dialogue until explicitly instructed to stop. You'll accomplish this by implementing a function that ends the program, which the assistant can call when necessary.</p>
+<p>First, modify your program to accept and respond to user input in a continuous loop. After each interaction (i.e., after the assistant's response and the display of the token cost), the program should return to the prompt for user input, allowing for continuous conversation.</p>
+<p>Next, implement a function within your program that ends the ongoing interaction. This function should be designed in such a way that the assistant can call it when instructed to do so by the user.</p>
+<p>The assistant should be capable of calling the termination function when instructed by the user. This will require some understanding of function calling within the OpenAI API and the ability to recognize specific user prompts that should trigger the function call. So use the Function calling feature of the Chat Completion API.</p>
+<p>Finally, every time the termination function is called, the function call ID should be in the output for confirmation. Apart from this, the program should continue to display the user's message, the assistant's response, and the token cost as before.</p>
+<p></p><div class="alert alert-primary">
+<p>Refer to the example for the output format.</p>
+<p></p></div>
+<h5 id="objectives">Objectives</h5>
+<p>In this stage, you should:</p>
+<ol>
+<li>
+<p>Modify the program to allow continuous interaction with the user.</p>
+</li>
+<li>
+<p>Implement a function that can end the interaction.</p>
+</li>
+<li>
+<p>Enable the assistant to call the termination function when instructed by the user.</p>
+</li>
+<li>
+<p>Output the function call ID when the function is called, while continuing to display the user's message, the assistant's response, and the token cost.</p>
+</li>
+</ol>
+<h5 id="examples">Examples</h5>
+<p>The greater-than symbol followed by a space (<code class="java">&gt; </code>) represents the user input. Note that it's not part of the input.</p>
+<p><strong>Example 1:</strong></p>
+<pre><code class="java">Enter a message: &gt; What is 5 + 10?
+You: What is 5 + 10?
+Assistant: 5 + 10 equals 15.
+Cost: $0.00003000
+
+Enter a message: &gt; What is the largest ocean?
+You: What is the largest ocean?
+Assistant: The largest ocean on Earth is the Pacific Ocean.
+Cost: $0.00005650
+
+Enter a message: &gt; End conversation
+call_TjO2fMKrLs6uj1NwkXHeeffn
+You: End conversation
+Assistant: None
+Cost: $0.00006350
+
+Process finished with exit code 0</code></pre>
+</div>

@@ -1,0 +1,20 @@
+type: edu
+files:
+  - name: main.py
+    visible: true
+    learner_created: false
+  - name: test/__init__.py
+    visible: false
+    learner_created: false
+  - name: test/tests.py
+    visible: false
+    learner_created: false
+  - name: tests.py
+    visible: false
+    learner_created: false
+  - name: my_own_test.py
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/learn/step/47495#comment
+status: Unchecked
+record: -1

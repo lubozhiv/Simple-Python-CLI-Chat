@@ -1,0 +1,118 @@
+hyperskill_project:
+  id: 478
+  ide_files: https://cogniterra.org/media/attachments/lesson/39131/additional_files.json
+  is_template_based: false
+  use_ide: true
+update_date: "Mon, 20 Jan 2025 20:48:54 UTC"
+stages:
+  - id: 2736
+    step: 47494
+    is_completed: true
+  - id: 2737
+    step: 47495
+    is_completed: false
+  - id: 2738
+    step: 47496
+    is_completed: false
+topics:
+  0:
+    - title: General limitations of LLMs
+      theory_id: 43801
+    - title: .env file
+      theory_id: 41735
+    - title: Introduction to OpenAI API
+      theory_id: 43699
+    - title: Computer algorithms
+      theory_id: 16547
+    - title: Introduction to LLMs
+      theory_id: 51833
+    - title: Operating systems
+      theory_id: 9704
+    - title: Command line overview
+      theory_id: 8977
+    - title: Parameters and options
+      theory_id: 9746
+    - title: World Wide Web
+      theory_id: 6633
+    - title: "HTTP: HyperText Transfer Protocol"
+      theory_id: 6569
+    - title: HTTP URL
+      theory_id: 6740
+    - title: HTTP messages
+      theory_id: 6752
+    - title: Intro to Machine Learning
+      theory_id: 10403
+    - title: Introduction to Python
+      theory_id: 47352
+    - title: Multi-line programs
+      theory_id: 47555
+    - title: Taking user's input
+      theory_id: 47680
+    - title: Program with numbers
+      theory_id: 47734
+    - title: Importing modules
+      theory_id: 6019
+    - title: Creating modules
+      theory_id: 6057
+    - title: Multiple modules. Package
+      theory_id: 6384
+    - title: Installing packages with pip
+      theory_id: 6230
+    - title: Libraries
+      theory_id: 8504
+    - title: Frameworks
+      theory_id: 6701
+    - title: PyCharm basics
+      theory_id: 6193
+    - title: Class
+      theory_id: 6661
+    - title: Running Python applications in PyCharm
+      theory_id: 19153
+    - title: Debugging Python applications in PyCharm
+      theory_id: 19163
+    - title: JSON
+      theory_id: 6854
+    - title: Introduction to API
+      theory_id: 17007
+    - title: Basic data types
+      theory_id: 47516
+    - title: Variables
+      theory_id: 47536
+    - title: "Integer arithmetic: basic operations"
+      theory_id: 47564
+    - title: Invoking functions
+      theory_id: 5891
+    - title: Declaring functions
+      theory_id: 5900
+    - title: "Function, arguments and parameters"
+      theory_id: 7248
+  1:
+    - title: Introduction to Prompt Engineering
+      theory_id: 43279
+    - title: Zero-shot and Few-shot prompting
+      theory_id: 45098
+    - title: Chain-of-Thought prompting
+      theory_id: 44767
+  2:
+    - title: Function calls with chat completions
+      theory_id: 45477
+    - title: If statement
+      theory_id: 5953
+    - title: For loop
+      theory_id: 6065
+    - title: Boolean type and operations. True and false
+      theory_id: 6025
+    - title: Comparisons
+      theory_id: 5920
+    - title: List
+      theory_id: 5979
+    - title: Indexes
+      theory_id: 6189
+    - title: Dictionary
+      theory_id: 6481
+    - title: Dictionary methods
+      theory_id: 9008
+    - title: Slicing
+      theory_id: 6177
+    - title: More dictionary methods
+      theory_id: 36298
